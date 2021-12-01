@@ -1,8 +1,8 @@
 {
   "name": "emitter",
   "repository": {
-    "type": "git",
-    "url": "git@github.com:mango/emitter.git"
+    "type": "https",
+    "url": "https://github.com/jacklicn/emitter.git"
   },
   "description": "A JavaScript event emitter written in ES6.",
   "author": {
