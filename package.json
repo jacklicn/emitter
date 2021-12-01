@@ -1,14 +1,11 @@
 {
-  "name": "emitter",
+  "name": "@feinote/emitter",
   "repository": {
-    "type": "https",
+    "type": "git",
     "url": "https://github.com/jacklicn/emitter.git"
   },
   "description": "A JavaScript event emitter written in ES6.",
-  "author": {
-    "name": "Guille Paz",
-    "email": "guille87paz@gmail.com"
-  },
+  "author": "Guille Paz <guille87paz@gmail.com>",
   "version": "0.0.7",
   "scripts": {
     "test": "_mocha",
@@ -30,5 +27,12 @@
   "keywords": [
     "emitter"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacklicn/emitter/issues"
+  },
+  "homepage": "https://github.com/jacklicn/emitter#readme",
+  "directories": {
+    "test": "test"
+  }
 }
