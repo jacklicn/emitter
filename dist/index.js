@@ -1,8 +1,3 @@
-"use strict";
-
-var _classCallCheck = function (instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } };
-
-exports.__esModule = true;
 /**
  * Creates a new instance of Emitter.
  * @class
@@ -13,11 +8,20 @@ exports.__esModule = true;
  *
  * var emitter = new Emitter();
  */
+"use strict";
+
+exports.__esModule = true;
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Emitter = (function () {
   function Emitter() {
     _classCallCheck(this, Emitter);
   }
+
+  /**
+   * Exports Emitter
+   */
 
   /**
    * Adds a listener to the collection for the specified event.
@@ -146,8 +150,5 @@ var Emitter = (function () {
   return Emitter;
 })();
 
-/**
- * Exports Emitter
- */
 exports["default"] = Emitter;
 module.exports = exports["default"];
